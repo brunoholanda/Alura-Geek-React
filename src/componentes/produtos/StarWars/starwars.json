@@ -1,0 +1,50 @@
+[
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "link": "/src/componentes/paginas/paginaProduto-01/index.jsx",
+        "imagem": "/assets/imagens/produtos/produto-01.png",
+        "id": "1",
+        "tag": "Star Wars"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "link": "/src/componentes/paginas/paginaProduto-01/index.jsx",
+        "imagem": "/assets/imagens/produtos/produto-02.png",
+        "id": "2",
+        "tag": "Star Wars"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "link": "/src/componentes/paginas/paginaProduto-01/index.jsx",
+        "imagem": "/assets/imagens/produtos/produto-03.png",
+        "id": "3",
+        "tag": "Star Wars"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "link": "/src/componentes/paginas/paginaProduto-01/index.jsx",
+        "imagem": "/assets/imagens/produtos/produto-04.png",
+        "id": "4",
+        "tag": "Star Wars"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "link": "/src/componentes/paginas/paginaProduto-01/index.jsx",
+        "imagem": "/assets/imagens/produtos/produto-05.png",
+        "id": "5",
+        "tag": "Star Wars"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "link": "#",
+        "imagem": "/assets/imagens/produtos/produto-06.png",
+        "id": "6",
+        "tag": "Star Wars"
+    }
+]   

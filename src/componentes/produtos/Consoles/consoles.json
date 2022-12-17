@@ -1,0 +1,50 @@
+[
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "link": "/src/componentes/paginas/paginaProduto-01/index.jsx",
+        "imagem": "/assets/imagens/produtos/produto-07.png",
+        "id": "7",
+        "tag": "Consoles"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "link": "/src/componentes/paginas/paginaProduto-01/index.jsx",
+        "imagem": "/assets/imagens/produtos/produto-08.png",
+        "id": "8",
+        "tag": "Consoles"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "link": "/src/componentes/paginas/paginaProduto-01/index.jsx",
+        "imagem": "/assets/imagens/produtos/produto-09.png",
+        "id": "9",
+        "tag": "Consoles"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "link": "/src/componentes/paginas/paginaProduto-01/index.jsx",
+        "imagem": "/assets/imagens/produtos/produto-10.png",
+        "id": "10",
+        "tag": "Consoles"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "link": "/src/componentes/paginas/paginaProduto-01/index.jsx",
+        "imagem": "/assets/imagens/produtos/produto-11.png",
+        "id": "11",
+        "tag": "Consoles"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "link": "#",
+        "imagem": "/assets/imagens/produtos/produto-12.png",
+        "id": "12",
+        "tag": "Consoles"
+    }
+]   

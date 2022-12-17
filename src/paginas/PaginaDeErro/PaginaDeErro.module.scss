@@ -1,0 +1,23 @@
+@import "../../styles/variaveis";
+
+.PaginaDeErro {
+
+    background-color: $cinza-background;
+    padding: 5em 0em 5em 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &__mike {
+        width: 15%;
+        margin-left: 4em;
+    }
+
+    h1 {
+        font-size: 4em;
+        font-weight: 700;
+        font-family: $fonte-principal;
+        color: $cor-do-texto;
+        text-align: center;
+    }
+}

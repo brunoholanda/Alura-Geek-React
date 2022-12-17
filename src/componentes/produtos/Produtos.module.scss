@@ -1,0 +1,100 @@
+@import "../../styles/variaveis";
+ 
+.produtos {
+  font-family: $fonte-principal;
+  padding: 3em 0em 3em 0;
+  align-items: center;
+  justify-content: center;
+  background-color: $cinza-background;
+
+  &__titulos {
+    h2 {
+      font-family: $fonte-principal;
+      font-size: 32px;
+      font-weight: 700;
+      color: $cor-do-texto;
+    }
+  }
+    
+ 
+  &__titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        
+    h2 {
+      font-family: $fonte-principal;
+      font-size: 32px;
+      font-weight: 700;
+      color: $cor-do-texto;
+      margin-left: 2.5em;
+    }
+    
+    a {
+      font-family: $fonte-principal;
+      font-weight: 700;
+      font-size: 16;
+      color: $azul;
+      text-decoration: none;
+      margin-right: 2em;
+            
+    }
+
+    a::after {
+      content: url('../../../public/assets/icones/seta.svg');
+      width: min-content;
+      margin-left: .5em;
+  }
+
+  a:hover {
+    color: $laranja;
+  }
+
+  }
+
+  &__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 0;
+    
+  }
+
+  &__card {
+    list-style-type: none;
+  
+  }
+
+  &__descricao {
+    font-family: $fonte-principal;
+    font-weight: 500;
+    font-size: 14;
+    color: $cor-do-texto;
+    margin: 0.3em auto;
+  }
+  
+  &__preco {
+    font-family: $fonte-principal;
+    font-weight: 700;
+    font-size: 16;
+    color: $cor-do-texto;
+    margin: 0.4em auto;
+  }
+  
+  &__link {
+    font-family: $fonte-principal;
+    font-weight: 700;
+    font-size: 16;
+    color: $azul;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: $laranja;
+  }
+
+}
+
+
+

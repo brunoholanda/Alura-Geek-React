@@ -1,0 +1,15 @@
+@import "../../styles/variaveis";
+
+main {
+    margin: 0 24px;
+  }
+
+ 
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  background-color: $cinza-background;
+  margin-top: 0;
+}
+

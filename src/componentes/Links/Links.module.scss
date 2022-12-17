@@ -1,0 +1,80 @@
+@import "../../styles/variaveis";
+
+.Links {
+    background-color: $azul-claro;
+    display: flex;
+    padding: 1em;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+    
+    &__imagem {
+        width: 30%;
+    }
+
+    img {
+        width: 50%;
+        
+       
+    }
+
+    &__link {
+      
+    
+        a {
+            color: $cor-do-texto;
+            font-family: $fonte-principal;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            padding-top: 1.5em;
+            display: flex;
+            align-items: flex-start;
+            margin-left: 0;
+            margin-right: 0;
+            
+        }
+
+        a:hover {
+            color: $laranja;
+        }
+    }
+
+    &__formulario {
+        display: flex;
+        flex-direction: column;
+        margin-left: 4em;
+        font-family: $fonte-principal;
+
+        input {
+            background-color: $branco;
+            box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            margin-top: 1em;
+            border-radius: 4px;
+            border-style: none;
+            width: 560px;
+            height: 56px;
+        }
+
+        input::placeholder {
+            color: $cinza-escuro;
+            font-size: 12px;
+            font-weight: 400;
+            padding: 1em;
+        }
+    }
+
+    &__texto {
+        padding: 1.7em 0;
+    }
+
+    button {
+        width: 30%;
+        margin-top: .8em;
+
+    }
+    
+    
+
+}

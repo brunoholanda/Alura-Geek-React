@@ -1,0 +1,23 @@
+@import "../../styles/variaveis";
+
+.BotaoMenuAdm {
+    
+  button {
+    border-color: $azul;
+    color: $azul;
+    background-color: $branco;
+    font-family: $fonte-principal;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.8em;
+    width: 15em;
+    cursor: pointer;
+    transition: 0.5s all;
+  }
+
+  button:hover {
+    background: $azul;
+	  transform: scale(1.02);
+    color: $branco;
+}
+}

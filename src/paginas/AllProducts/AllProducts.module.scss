@@ -1,0 +1,96 @@
+@import "../../styles/variaveis";
+ 
+.produtos {
+  font-family: $fonte-principal;
+  margin: 0em 1em 3em 1em;
+  align-items: center;
+  justify-content: center;
+  
+ 
+  &__titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        
+    h2 {
+      font-family: $fonte-principal;
+      font-size: 32px;
+      font-weight: 700;
+      color: $cor-do-texto;
+      margin-left: 2.5em;
+    }
+    
+    a {
+      font-family: $fonte-principal;
+      font-weight: 700;
+      font-size: 16;
+      color: $azul;
+      text-decoration: none;
+      margin-right: 2em;
+            
+    }
+
+    a::after {
+      
+      width: min-content;
+      margin-left: .5em;
+    }
+
+    a:hover {
+      color: $laranja;
+    }
+
+  }
+
+  &__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 0;
+    
+  }
+
+  &__card {
+    list-style-type: none;
+  
+  }
+
+  &__descricao {
+    font-family: $fonte-principal;
+    font-weight: 500;
+    font-size: 14;
+    color: $cor-do-texto;
+    margin: 0.3em auto;
+  }
+  
+  &__preco {
+    font-family: $fonte-principal;
+    font-weight: 700;
+    font-size: 16;
+    color: $cor-do-texto;
+    margin: 0.4em auto;
+  }
+  
+  &__link {
+    font-family: $fonte-principal;
+    font-weight: 700;
+    font-size: 16;
+    color: $azul;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: $laranja;
+  }
+
+  &__sessao {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: $cinza-background;
+  }
+
+}
+
+
+

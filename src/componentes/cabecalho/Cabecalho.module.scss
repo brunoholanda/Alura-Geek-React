@@ -1,0 +1,77 @@
+@import "../../styles/variaveis";
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.5em 5em;
+   
+    &__container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    &__logo {
+      width: 80%;
+      cursor: pointer;
+    }
+
+    &__input {
+      border-radius: 20px;
+      background-color: $cinza;
+      border-style: none;
+      width: 45%;
+      padding: 0.8em;
+      margin-right: 12em;
+      margin-left: 5em;
+    }
+
+    &__input::placeholder {
+      font-family: $fonte-principal;
+      font-size: 14px; 
+      font-weight: 400;
+      color: $cinza-escuro;
+      background: url("./Lupa.png") no-repeat;
+      background-size: 30px;
+      background-position: right center;
+      padding-left: 2em;
+      padding-top: 2em;
+      padding-bottom: 2em;
+  }
+
+  &__procura {
+    cursor: pointer;
+    position: absolute;
+    width: 2%;
+    z-index: 1;
+    left: 900px;
+  }
+
+  button {
+    border-color: $azul;
+    color: $azul;
+    background-color: $branco;
+    font-family: $fonte-principal;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.8em;
+    width: 15em;
+    cursor: pointer;
+    transition: 0.5s all;
+  }
+
+  button:hover {
+    background: $azul;
+	  transform: scale(1.02);
+    color: $branco;
+}
+
+  &__menuAdm {
+    display: none;
+  }
+
+}
+
+  
+  
